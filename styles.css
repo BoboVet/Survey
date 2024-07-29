@@ -78,3 +78,7 @@ h2 {
 .question-3 {
     background: linear-gradient(yellow, orange);
 }
+
+.question-4 {
+    background: linear-gradient(orange, red);
+}
