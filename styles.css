@@ -86,3 +86,7 @@ h2 {
 .question-5 {
     background: linear-gradient(red, purple)
 }
+
+.question-6 {
+    background: linear-gradient(purple, magenta);
+}
