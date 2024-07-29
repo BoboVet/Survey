@@ -1,3 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,17 +19,6 @@ h1 {
     font-family: Verdana, sans-serif;
 }
 
-.page1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    background-color: aquamarine;
-}
-
 .subtitle {
     font-family: Verdana, sans-serif;
     font-size: 50px;
@@ -34,24 +29,39 @@ h1 {
     color: gray;
 }
 
-.question-1 {
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100%;
+}
+
+.welcome {
+    background-color: aquamarine;
     text-align: center;
+}
+
+.page ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page ul li {
+    margin: 10px 0;
+}
+
+.answers {
+    list-style: none;
+    padding: 0;
+}
+
+.question-1 {
     background: linear-gradient(aquamarine, blue);
 }
 
-
-.question ul {
-    list-style: none;
+.question-2 {
+    background: linear-gradient(blue, yellow);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    * {
-      scroll-behavior: smooth;
-    }
-}
